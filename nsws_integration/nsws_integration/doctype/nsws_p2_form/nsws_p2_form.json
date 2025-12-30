@@ -1,0 +1,2432 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "format:{season_month}-{sugar_season}",
+ "creation": "2025-12-30 12:05:54.582697",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "approval_id",
+  "column_break_ue5zi",
+  "sws_id",
+  "column_break_2fbd3",
+  "project_number",
+  "form_applied_for_section",
+  "year",
+  "date",
+  "column_break_hg8c",
+  "sugar_season",
+  "column_break_efxh",
+  "season_month",
+  "sugar_mill_details_section",
+  "name_of_the_undertakinggroup",
+  "plant_code",
+  "column_break_16fr",
+  "plant_name",
+  "state",
+  "cane_crushed_section",
+  "capacity_in_tcd_for_sugar_millstons_per_day_tpd_for_refineries",
+  "column_break_tcsp",
+  "cane_crushed__during_the_month_mt",
+  "cane_crushed_cumulative_figures_upto_the_month_end_mt",
+  "section_break_z3ji",
+  "production_multiselect",
+  "ns_2i_white__refined_sugar_section",
+  "ns_2i_a1",
+  "ns_2i_b1",
+  "ns_2i_c1",
+  "ns_2i_c1_1",
+  "ns_2i_c2_1",
+  "ns_2i_c3_1",
+  "ns_2i_c4_1",
+  "column_break_rq9q",
+  "ns_2i_a2",
+  "ns_2i_b2",
+  "ns_2i_c2",
+  "ns_2i_c1_2",
+  "ns_2i_c2_2",
+  "ns_2i_c3_2",
+  "ns_2i_c4_2",
+  "ns_2ii_raw_sugar_section",
+  "ns_2ii_a1",
+  "ns_2ii_b1",
+  "ns_2ii_c1",
+  "column_break_5yzm",
+  "ns_2ii_a2",
+  "ns_2ii_b2",
+  "ns_2ii_c2",
+  "ns_2iii_procured_sugar_section",
+  "ns_2iii_a1",
+  "ns_2iii_internal1",
+  "ns_2iii_b1",
+  "ns_2iii_c1",
+  "column_break_aykt",
+  "ns_2iii_a2",
+  "ns_2iii_internal2",
+  "ns_2iii_b2",
+  "ns_2iii_c2",
+  "ns_31_title",
+  "ns_31_i1",
+  "ns_31_ii1",
+  "ns_31_iii1",
+  "ns_31_iv1",
+  "ns_31_v1",
+  "ns_31_vi1",
+  "column_break_xtcp",
+  "ns_31_i2",
+  "ns_31_ii2",
+  "ns_31_iii2",
+  "ns_31_iv2",
+  "ns_31_v2",
+  "ns_31_vi2",
+  "ns_32_ethanol_production_section",
+  "ns_32_i1",
+  "ns_32_ii1",
+  "ns_32_iii1",
+  "column_break_xc9b",
+  "ns_32_i2",
+  "ns_32_ii2",
+  "ns_32_iii2",
+  "ns_4_recovery__age_section",
+  "ns_4_i1",
+  "ns_4_ii1",
+  "ns_4_iii1",
+  "column_break_ja1y",
+  "ns_4_i2",
+  "ns_4_ii2",
+  "ns_4_iii2",
+  "total_sugar_produced",
+  "total_sugar_produced__during_the_month_mt",
+  "column_break_auqz",
+  "total_sugar_produced_cumulative_figures_upto_the_month_end_mt",
+  "dispatches_section",
+  "dispatch_multiselect",
+  "ns_611_title",
+  "release_order_date",
+  "ns_611_field1",
+  "ns_611_field3",
+  "column_break_zmuj",
+  "ns_611_field2",
+  "ns_611_field4",
+  "ns_612_title",
+  "ns_612_field1",
+  "ns_612_field2",
+  "ns_612_field4",
+  "column_break_jxeo",
+  "ns_612_field3",
+  "ns_612_field5",
+  "ns_613_title",
+  "ns_613_field1",
+  "ns_613_field2",
+  "ns_613_field4",
+  "column_break_lqwr",
+  "ns_613_field3",
+  "ns_613_field5",
+  "ns_614_title",
+  "ns_614_field1",
+  "ns_614_field2",
+  "ns_614_field4",
+  "column_break_6u2o",
+  "ns_614_field3",
+  "ns_614_field5",
+  "ns_62_bisstitle",
+  "ns_62_bissfield1",
+  "ns_62_bissfield2",
+  "column_break_ypkt",
+  "ns_62_bissfield3",
+  "ns_63_internaltitle",
+  "ns_63_internalfield1",
+  "ns_63_internalfield2",
+  "ns_column_break_jane",
+  "ns_63_internalfield3",
+  "ns_63_internalfield4",
+  "ns_64_internaltitle",
+  "ns_64_internalfield1",
+  "ns_64_internalfield2",
+  "column_break_nilj",
+  "ns_64_internalfield3",
+  "ns_64_internalfield4",
+  "ns_65_saletitle",
+  "ns_65_salefield1",
+  "ns_65_salefield2",
+  "column_break_acnj",
+  "ns_65_salefield3",
+  "ns_65_salefield4",
+  "hsn_code_and_related_details_section",
+  "hsn_code_t1",
+  "hsn_code_t3",
+  "column_break_3etk",
+  "hsn_code_t2",
+  "hsn_code_t4",
+  "section_break_p0moo",
+  "upload_gstr_1",
+  "export_section",
+  "export_multiselect",
+  "ns_66a_exportrefinedtitle",
+  "ns_66a_exportrefinedfield3",
+  "ns_66a_exportrefinedfield4",
+  "ns_66a_exportrefinedfield5",
+  "column_break_nyoj",
+  "ns_66a_exportrefinedfield6",
+  "ns_66a_exportrefinedfield7",
+  "ns_66a_exportrawtitle",
+  "ns_66a_exportrawfield1",
+  "ns_66a_exportrawfield2",
+  "ns_66a_exportrawfield3",
+  "column_break_2axi",
+  "ns_66a_exportrawfield4",
+  "ns_66a_exportrawfield5",
+  "ns_66a_exportinvoicetitle",
+  "ns_66a_exportinvoicefield1",
+  "ns_66a_exportinvoicefield2",
+  "ns_66a_exportinvoicefield5",
+  "column_break_3fji",
+  "ns_66a_exportinvoicefield3",
+  "ns_66a_exportinvoicefield4",
+  "ns_66b_exportaastitle",
+  "ns_66b_exportaasfield1",
+  "ns_66b_exportaasfield2",
+  "ns_66b_exportaasfield3",
+  "column_break_4q9d",
+  "ns_66b_exportaasfield4",
+  "ns_66b_exportaasfield5",
+  "import_sectin_title",
+  "is_there_any_import_applicable",
+  "section_break_dl3e",
+  "ns_67a_importfield1",
+  "ns_67a_importfield2",
+  "ns_67b_importfield",
+  "total_dispatches_section",
+  "domestic_mt",
+  "column_break_nzgb",
+  "export_mt",
+  "section_break_xatj",
+  "stock_of_sugar_in_mt",
+  "factory_premises_white_sugar",
+  "white_sugar_opening_stock",
+  "column_break_fvvf",
+  "white_sugar_closing_stock",
+  "factory_premises_biss_brown_sugar",
+  "biss_brown_sugar_opening_stock",
+  "column_break_stok",
+  "biss__brown_sugar_produced_during_the_month",
+  "column_break_nge6v",
+  "biss_brown_sugar_closing_stock",
+  "factory_premises_raw_sugar",
+  "raw_sugar_opening_stock",
+  "column_break_tihp",
+  "raw_sugar_closing_stock",
+  "outside_godown_white_sugar",
+  "outside_white_sugar_opening_stock",
+  "column_break_tuyv",
+  "initial_value_of_outside_godown_white_sugar_closing_stock",
+  "column_break_fk0rw",
+  "duty_paid_sale_during_the_month_o_g_white_sugar",
+  "outside_white_sugar_closing_stock",
+  "outside_godown_brown_sugar",
+  "outside_biss_brown_sugar_opening_stock",
+  "column_break_bujr",
+  "initial_value_of_outside_godown_biss_brown_sugar_closing_stock",
+  "column_break_18mmx",
+  "duty_paid_sale_during_the_month_o_g_biss_brown_sugar",
+  "outside_biss_brown_sugar_closing_stock",
+  "outside_godown_raw_sugar",
+  "outside_raw_sugar_opening_stock",
+  "column_break_runa",
+  "initial_value_of_outside_godown_raw_sugar_closing_stock",
+  "column_break_nxb6v",
+  "duty_paid_sale_during_the_month_o_g_raw_sugar",
+  "outside_raw_sugar_closing_stock",
+  "packing_details_of_sugar_in_mt",
+  "pdosim_field1",
+  "pdosim_field2",
+  "pdosim_field3",
+  "pdosim_field4",
+  "pdosim_field5",
+  "column_break_tmyj",
+  "pdosim_field6",
+  "pdosim_field7",
+  "pdosim_field8",
+  "pdosim_field9",
+  "section_break_xxcm",
+  "cane_dues_data",
+  "sugar_season_2024_25",
+  "ss_24_25_field1",
+  "ss_24_25_field2",
+  "ss_24_25_field3",
+  "ss_24_25_field4",
+  "ss_24_25_field5",
+  "column_break_iptrl",
+  "ss_24_25_field6",
+  "ss_24_25_field7",
+  "ss_24_25_field8",
+  "ss_24_25_field9",
+  "section_break_pt0zi",
+  "cane_dues_5_year_data",
+  "tab_break_jmdzk",
+  "sugar_season_2023_24",
+  "ss_23_24_field1",
+  "ss_23_24_field2",
+  "ss_23_24_field8",
+  "ss_23_24_field9",
+  "column_break_lrlx",
+  "ss_23_24_field6",
+  "ss_23_24_field7",
+  "ss_23_24_field4",
+  "ss_23_24_field5",
+  "sugar_season_2022_23",
+  "ss_22_23_field1",
+  "ss_22_23_field2",
+  "ss_22_23_field3",
+  "ss_22_23_field4",
+  "column_break_fxuw",
+  "ss_22_23_field5",
+  "ss_22_23_field6",
+  "ss_22_23_field7",
+  "ss_22_23_field8",
+  "sugar_season_2021_22",
+  "ss_21_22_field1",
+  "ss_21_22_field2",
+  "ss_21_22_field3",
+  "ss_21_22_field4",
+  "column_break_khsm",
+  "ss_21_22_field5",
+  "ss_21_22_field6",
+  "ss_21_22_field7",
+  "ss_21_22_field8",
+  "sugar_season_2020_21",
+  "ss_20_21_field1",
+  "ss_20_21_field2",
+  "ss_20_21_field3",
+  "ss_20_21_field4",
+  "column_break_xwpf",
+  "ss_20_21_field5",
+  "ss_20_21_field6",
+  "ss_20_21_field7",
+  "ss_20_21_field8",
+  "sugar_season_2019_20",
+  "ss_19_20_field1",
+  "ss_19_20_field2",
+  "ss_19_20_field3",
+  "ss_19_20_field4",
+  "column_break_ozbw",
+  "ss_19_20_field5",
+  "ss_19_20_field6",
+  "ss_19_20_field7",
+  "ss_19_20_field8",
+  "json_section",
+  "unique_id",
+  "api_response",
+  "copy_json",
+  "nsws_p2_form_json",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "approval_id",
+   "fieldtype": "Data",
+   "label": "Approval Id",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_ue5zi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sws_id",
+   "fieldtype": "Data",
+   "label": "SWS Id",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_2fbd3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "project_number",
+   "fieldtype": "Data",
+   "label": "Project Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "form_applied_for_section",
+   "fieldtype": "Section Break",
+   "label": "Form applied for"
+  },
+  {
+   "fieldname": "year",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "year"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_hg8c",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sugar_season",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Sugar Season",
+   "options": "NSWS Season",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_efxh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "season_month",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Month",
+   "options": "\nJanuary\nFebruary\nMarch\nApril\nMay\nJune\nJuly\nAugust\nSeptember\nOctober\nNovember\nDecember",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sugar_mill_details_section",
+   "fieldtype": "Section Break",
+   "label": "Sugar Mill Details"
+  },
+  {
+   "fieldname": "name_of_the_undertakinggroup",
+   "fieldtype": "Data",
+   "label": "Name of the Undertaking/Group",
+   "reqd": 1
+  },
+  {
+   "fieldname": "plant_code",
+   "fieldtype": "Int",
+   "label": "Plant Code",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_16fr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "plant_name",
+   "fieldtype": "Data",
+   "label": "Plant Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "state",
+   "fieldtype": "Select",
+   "label": "State",
+   "options": "\nANDAMAN AND NICOBAR ISLANDS\nANDHRA PRADESH\nARUNACHAL PRADESH\nASSAM\nBIHAR\nCHANDIGARH\nCHHATTISGARH\nDADRA AND NAGAR HAVELI AND DAMAN AND DIU\nDELHI (NATIONAL CAPITAL TERRITORY OF DELHI)\nGOA\nGUJARAT\nHARYANA\nHIMACHAL PRADESH\nJAMMU AND KASHMIR\nJHARKHAND\nKARNATAKA\nKERALA\nLADAKH\nLAKSHADWEEP\nMADHYA PRADESH\nMAHARASHTRA\nMANIPUR\nMEGHALAYA\nMIZORAM\nNAGALAND\nODISHA\nPUNJAB\nPUDUCHERRY\nRAJASTHAN\nSIKKIM\nTAMIL NADU\nTELANGANA\nTRIPURA\nUTTAR PRADESH\nUTTARAKHAND\nWEST BENGAL",
+   "reqd": 1
+  },
+  {
+   "fieldname": "cane_crushed_section",
+   "fieldtype": "Section Break",
+   "label": "Cane Crushed"
+  },
+  {
+   "fieldname": "capacity_in_tcd_for_sugar_millstons_per_day_tpd_for_refineries",
+   "fieldtype": "Float",
+   "label": "Capacity (In TCD for sugar mills/Tons Per Day (TPD) for refineries)",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_tcsp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cane_crushed__during_the_month_mt",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Cane Crushed  During the Month (MT)",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "cane_crushed_cumulative_figures_upto_the_month_end_mt",
+   "fieldtype": "Float",
+   "label": "Cane Crushed Cumulative figures upto the Month end (MT)",
+   "no_copy": 1,
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_z3ji",
+   "fieldtype": "Section Break",
+   "label": "Production of white/refined/Raw Sugar from Domestic sources"
+  },
+  {
+   "fieldname": "production_multiselect",
+   "fieldtype": "Table MultiSelect",
+   "label": "Select",
+   "options": "P2 Form Production Select"
+  },
+  {
+   "default": "0",
+   "depends_on": "eval:doc.production_multiselect && JSON.stringify(doc.production_multiselect).includes(\"2(I) White / Refined Sugar\")\n",
+   "fieldname": "ns_2i_white__refined_sugar_section",
+   "fieldtype": "Section Break",
+   "label": "2(I) White / Refined Sugar"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_2i_a1",
+   "fieldtype": "Float",
+   "label": "a) From Cane - During the Month (MT)",
+   "precision": "2"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_2i_b1",
+   "fieldtype": "Float",
+   "label": "b) From Reprocessing unmarketable old Sugar - During the Month (MT)",
+   "precision": "2"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_2i_c1",
+   "fieldtype": "Float",
+   "label": "c) From raw procured from other domestic sugar mills - During the Month (MT)",
+   "precision": "2"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_2i_c1_1",
+   "fieldtype": "Float",
+   "label": "c(1) From transferred white sugar from other domestic sugar mills - During the Month (MT)",
+   "precision": "2"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_2i_c2_1",
+   "fieldtype": "Float",
+   "label": "c(2) From Raw Sugar used from own Stock - During the Month (MT)",
+   "precision": "2"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_2i_c3_1",
+   "fieldtype": "Float",
+   "label": "c(3) White sugar produced from own stock of raw sugar - During the Month (MT)",
+   "precision": "2"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_2i_c4_1",
+   "fieldtype": "Float",
+   "label": "d) Total - During the Month (MT)",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_rq9q",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_2i_a2",
+   "fieldtype": "Float",
+   "label": "a) From Cane - Cumulative figures upto the Month end (MT)",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_2i_b2",
+   "fieldtype": "Float",
+   "label": "b) From Reprocessing unmarketable old Sugar - Cumulative figures upto the Month end (MT)",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_2i_c2",
+   "fieldtype": "Float",
+   "label": "c) From raw procured from other domestic sugar mills - Cumulative figures upto the Month end (MT)",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_2i_c1_2",
+   "fieldtype": "Float",
+   "label": "c(1) From transferred white sugar from other domestic sugar mills - Cumulative figures upto the Month end (MT)",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_2i_c2_2",
+   "fieldtype": "Float",
+   "label": "c(2) From Raw Sugar used from own Stock - Cumulative figures upto the Month end (MT)",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_2i_c3_2",
+   "fieldtype": "Float",
+   "label": "c(3) White sugar produced from own stock of raw sugar (MT) - Cumulative figures upto the Month end (MT)",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_2i_c4_2",
+   "fieldtype": "Float",
+   "label": "d) Total - Cumulative figures upto the Month end (MT)",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "depends_on": "eval:doc.production_multiselect && JSON.stringify(doc.production_multiselect).includes(\"2(II) Raw Sugar\")\n",
+   "fieldname": "ns_2ii_raw_sugar_section",
+   "fieldtype": "Section Break",
+   "label": "2(II) Raw Sugar"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_2ii_a1",
+   "fieldtype": "Float",
+   "label": "a) From Cane - During the Month (MT)",
+   "precision": "2"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_2ii_b1",
+   "fieldtype": "Float",
+   "label": "b) From Reprocessing unmarketable old Sugar - During the Month (MT)",
+   "precision": "2"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_2ii_c1",
+   "fieldtype": "Float",
+   "label": "c) Raw sugar procured from other domestic sugar mills",
+   "precision": "2"
+  },
+  {
+   "fieldname": "column_break_5yzm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_2ii_a2",
+   "fieldtype": "Float",
+   "label": "a) From Cane - Cumulative figures upto the Month end (MT)",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_2ii_b2",
+   "fieldtype": "Float",
+   "label": "b) From Reprocessing unmarketable old Sugar - Cumulative figures upto the Month end (MT)",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_2ii_c2",
+   "fieldtype": "Float",
+   "label": "c) Raw sugar procured from other domestic sugar mills - Cumulative figures upto the Month end (MT)",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "depends_on": "eval:doc.production_multiselect && JSON.stringify(doc.production_multiselect).includes(\"2(III) Procured sugar\")\n",
+   "fieldname": "ns_2iii_procured_sugar_section",
+   "fieldtype": "Section Break",
+   "label": "2(III) Procured sugar"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_2iii_a1",
+   "fieldtype": "Float",
+   "label": "a) Raw Sugar - Internal transfer from other group sugar mills - During the Month (MT)",
+   "precision": "2"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_2iii_internal1",
+   "fieldtype": "Int",
+   "label": "Internal transfer - Plant Code"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_2iii_b1",
+   "fieldtype": "Float",
+   "label": "b) From Imported Raw Sugar - During the Month (MT)",
+   "precision": "2"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_2iii_c1",
+   "fieldtype": "Float",
+   "label": "c) Grand Total - During the Month (MT)",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_aykt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_2iii_a2",
+   "fieldtype": "Float",
+   "label": "a) Raw Sugar - Internal transfer from other group sugar mills - Cumulative figures upto the Month end (MT)",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "fieldname": "ns_2iii_internal2",
+   "fieldtype": "Data",
+   "label": "Internal transfer - Plant Name"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_2iii_b2",
+   "fieldtype": "Float",
+   "label": "b) From Imported Raw Sugar - Cumulative figures upto the Month end (MT)",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_2iii_c2",
+   "fieldtype": "Float",
+   "label": "c) Grand Total - Cumulative figures upto the Month end (MT)",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "depends_on": "eval:doc.production_multiselect && JSON.stringify(doc.production_multiselect).includes(\"3(1) Diversion/sale of B-heavy/Syrup/sugarcane juice/sugar\")\n",
+   "fieldname": "ns_31_title",
+   "fieldtype": "Section Break",
+   "label": "3(1) Diversion/sale of B-heavy/Syrup/sugarcane juice/sugar"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_31_i1",
+   "fieldtype": "Float",
+   "label": "(i).a. Qty of Syrup/Sugarcane Juice/Sugar diverted for ethanol - During the Month (in MT)",
+   "precision": "2"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_31_ii1",
+   "fieldtype": "Float",
+   "label": "(ii).a. Qty of B-Heavy diverted for ethanol - During the Month (MT)",
+   "precision": "2"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_31_iii1",
+   "fieldtype": "Float",
+   "label": "(iii).a. Qty of C-Heavy diverted for ethanol - During the Month (MT)",
+   "precision": "2"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_31_iv1",
+   "fieldtype": "Float",
+   "label": "(iv) Sale of B-Heavy - During the Month (MT)",
+   "precision": "2"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_31_v1",
+   "fieldtype": "Float",
+   "label": "(v) Sale of Syrup/Sugarcane Juice/Sugar - During the Month (MT)",
+   "precision": "2"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_31_vi1",
+   "fieldtype": "Float",
+   "label": "(vi) Sale of C-Heavy - During the Month (MT)",
+   "precision": "2"
+  },
+  {
+   "fieldname": "column_break_xtcp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_31_i2",
+   "fieldtype": "Float",
+   "label": "(i).a. Qty of Syrup/Sugarcane Juice/Sugar diverted for ethanol - Cumulative figures upto the Month end (in MT)",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_31_ii2",
+   "fieldtype": "Float",
+   "label": "(ii).a. Qty of B-Heavy diverted for ethanol - Cumulative figures upto the Month end (MT)",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_31_iii2",
+   "fieldtype": "Float",
+   "label": "(iii).a. Qty of C-Heavy diverted for ethanol - Cumulative figures upto the Month end (MT)",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_31_iv2",
+   "fieldtype": "Float",
+   "label": "(iv) Sale of B-Heavy - Cumulative figures upto the Month end (MT)",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_31_v2",
+   "fieldtype": "Float",
+   "label": "(v) Sale of Syrup/Sugarcane Juice/Sugar - Cumulative figures upto the Month end (MT)",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_31_vi2",
+   "fieldtype": "Float",
+   "label": "(vi) Sale of C-Heavy - Cumulative figures upto the Month end (MT)",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "depends_on": "eval:doc.production_multiselect && JSON.stringify(doc.production_multiselect).includes(\"3(2) Ethanol Production\")\n",
+   "fieldname": "ns_32_ethanol_production_section",
+   "fieldtype": "Section Break",
+   "label": "3(2) Ethanol Production"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_32_i1",
+   "fieldtype": "Float",
+   "label": "(i).b. Ethanol Production from In-house Syrup/Sugarcane Juice/Sugar - During the Month (in KL)",
+   "precision": "2"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_32_ii1",
+   "fieldtype": "Float",
+   "label": "(ii).b. Ethanol Production from In-house B-Heavy - During the Month (in KL)",
+   "precision": "2"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_32_iii1",
+   "fieldtype": "Float",
+   "label": "(iii).b. Ethanol Production from In-house C-Heavy - During the Month (in KL)",
+   "precision": "2"
+  },
+  {
+   "fieldname": "column_break_xc9b",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_32_i2",
+   "fieldtype": "Float",
+   "label": "(i).b. Ethanol Production from In-house Syrup/Sugarcane Juice/Sugar - Cumulative figures upto the Month end (in KL)",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_32_ii2",
+   "fieldtype": "Float",
+   "label": "(ii).b. Ethanol Production from In-house B-Heavy - Cumulative figures upto the Month end (in KL)",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_32_iii2",
+   "fieldtype": "Float",
+   "label": "(iii).b. Ethanol Production from In-house C-Heavy - Cumulative figures upto the Month end (in KL)",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "depends_on": "eval:doc.production_multiselect && JSON.stringify(doc.production_multiselect).includes(\"2(I) White / Refined Sugar\" || \"2(II) Raw Sugar\" || \"2(III) Procured sugar\" || \"3(1) Diversion/sale of B-heavy/Syrup/sugarcane juice/sugar\" || \"3(2) Ethanol Production\" )",
+   "fieldname": "ns_4_recovery__age_section",
+   "fieldtype": "Section Break",
+   "label": "4. Recovery % age"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_4_i1",
+   "fieldtype": "Float",
+   "label": "4 (i) Purity of Mixed Juice (Monthly Average) - During Month (in MT)",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_4_ii1",
+   "fieldtype": "Float",
+   "label": "4 (ii) Pol in Mixed Juice % Cane (Monthly Average) - During the Month (in MT)",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_4_iii1",
+   "fieldtype": "Float",
+   "label": "4 (iii) Recovery % age - During the Month",
+   "precision": "2"
+  },
+  {
+   "fieldname": "column_break_ja1y",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_4_i2",
+   "fieldtype": "Float",
+   "label": "4 (i) Purity of Mixed Juice (Monthly Average) - Cumulative figures upto the Month end (in MT)",
+   "precision": "2"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_4_ii2",
+   "fieldtype": "Float",
+   "label": "4 (ii) Pol in Mixed Juice % Cane (Monthly Average) - Cumulative figures upto the Month end the Month (in MT)",
+   "precision": "2"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_4_iii2",
+   "fieldtype": "Float",
+   "label": "4 (iii) Recovery % age - Cumulative figures upto the Month end",
+   "precision": "2"
+  },
+  {
+   "fieldname": "total_sugar_produced",
+   "fieldtype": "Section Break",
+   "label": "5. Total Sugar Produced - [2(I)d + 2(II)c]"
+  },
+  {
+   "default": "0",
+   "fieldname": "total_sugar_produced__during_the_month_mt",
+   "fieldtype": "Float",
+   "label": "Total Sugar Produced  During the Month (MT)",
+   "precision": "2",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_auqz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "total_sugar_produced_cumulative_figures_upto_the_month_end_mt",
+   "fieldtype": "Float",
+   "label": "Total Sugar Produced Cumulative figures upto the Month end (MT)",
+   "precision": "2",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "dispatches_section",
+   "fieldtype": "Section Break",
+   "label": "Dispatches"
+  },
+  {
+   "fieldname": "dispatch_multiselect",
+   "fieldtype": "Table MultiSelect",
+   "label": "Select",
+   "options": "P2 Form Dispatches Select"
+  },
+  {
+   "depends_on": "eval:doc.dispatch_multiselect && JSON.stringify(doc.dispatch_multiselect).includes(\"6.1.1 Domestic Dispatch w.r.t. monthly release quantity\")\n",
+   "fieldname": "ns_611_title",
+   "fieldtype": "Section Break",
+   "label": "6.1.1 Domestic Dispatch w.r.t. monthly release quantity"
+  },
+  {
+   "fieldname": "release_order_date",
+   "fieldtype": "Date",
+   "label": "Release Order - Date"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_611_field1",
+   "fieldtype": "Float",
+   "label": "Release order - Qty Released (MT)",
+   "precision": "2"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_611_field3",
+   "fieldtype": "Float",
+   "label": "Qty Dispatched - During the Month (MT)",
+   "precision": "2"
+  },
+  {
+   "fieldname": "column_break_zmuj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_611_field2",
+   "fieldtype": "Float",
+   "label": "Qty Dispatched - Cumulative (MT)",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "fieldname": "ns_611_field4",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "depends_on": "eval:doc.dispatch_multiselect && JSON.stringify(doc.dispatch_multiselect).includes(\"6.1.2 Domestic Dispatch w.r.t. additional allotment, if any\")\n",
+   "fieldname": "ns_612_title",
+   "fieldtype": "Section Break",
+   "label": "6.1.2 Domestic Dispatch w.r.t. additional allotment, if any"
+  },
+  {
+   "fieldname": "ns_612_field1",
+   "fieldtype": "Date",
+   "label": "Release Order - Date"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_612_field2",
+   "fieldtype": "Float",
+   "label": "Release order - Qty Released (MT)",
+   "precision": "2"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_612_field4",
+   "fieldtype": "Float",
+   "label": "Qty Dispatched - During the Month (MT)",
+   "precision": "2"
+  },
+  {
+   "fieldname": "column_break_jxeo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_612_field3",
+   "fieldtype": "Float",
+   "label": "Qty Dispatched - Cumulative (MT)",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "fieldname": "ns_612_field5",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "depends_on": "eval:doc.dispatch_multiselect && JSON.stringify(doc.dispatch_multiselect).includes(\"6.1.3 Domestic Dispatch w.r.t. extended quota\")\n",
+   "fieldname": "ns_613_title",
+   "fieldtype": "Section Break",
+   "label": "6.1.3 Domestic Dispatch w.r.t. extended quota"
+  },
+  {
+   "fieldname": "ns_613_field1",
+   "fieldtype": "Date",
+   "label": "Release Order - Date"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_613_field2",
+   "fieldtype": "Float",
+   "label": "Release order - Qty Released (MT)",
+   "precision": "2"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_613_field4",
+   "fieldtype": "Float",
+   "label": "Qty Dispatched - During the Month (MT)",
+   "precision": "2"
+  },
+  {
+   "fieldname": "column_break_lqwr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_613_field3",
+   "fieldtype": "Float",
+   "label": "Qty Dispatched - Cumulative (MT)",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "fieldname": "ns_613_field5",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "depends_on": "eval:doc.dispatch_multiselect && JSON.stringify(doc.dispatch_multiselect).includes(\"6.1.4 Any other domestic Dispatch\")\n",
+   "fieldname": "ns_614_title",
+   "fieldtype": "Section Break",
+   "label": "6.1.4 Any other domestic Dispatch"
+  },
+  {
+   "fieldname": "ns_614_field1",
+   "fieldtype": "Date",
+   "label": "Release Order - Date"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_614_field2",
+   "fieldtype": "Float",
+   "label": "Release order - Qty Released (MT)",
+   "precision": "2"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_614_field4",
+   "fieldtype": "Float",
+   "label": "Qty Dispatched - During the Month (MT)",
+   "precision": "2"
+  },
+  {
+   "fieldname": "column_break_6u2o",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_614_field3",
+   "fieldtype": "Float",
+   "label": "Qty Dispatched - Cumulative (MT)",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "fieldname": "ns_614_field5",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "depends_on": "eval:doc.dispatch_multiselect && JSON.stringify(doc.dispatch_multiselect).includes(\"6.2 BISS Dispatch of unmarketable old Sugar for further processing\")\n",
+   "fieldname": "ns_62_bisstitle",
+   "fieldtype": "Section Break",
+   "label": "6.2 BISS Dispatch of unmarketable old Sugar for further processing"
+  },
+  {
+   "fieldname": "ns_62_bissfield1",
+   "fieldtype": "Date",
+   "label": "Release Order - Date"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_62_bissfield2",
+   "fieldtype": "Float",
+   "label": "Qty Used for reprocessing - During the Month (MT)",
+   "precision": "2"
+  },
+  {
+   "fieldname": "column_break_ypkt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_62_bissfield3",
+   "fieldtype": "Float",
+   "label": "Qty Used for reprocessing - Cumulative (MT)",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "depends_on": "eval:doc.dispatch_multiselect && JSON.stringify(doc.dispatch_multiselect).includes(\"6.3 Internal transfer of raw sugar within a group\")\n",
+   "fieldname": "ns_63_internaltitle",
+   "fieldtype": "Section Break",
+   "label": "6.3 Internal transfer of raw sugar within a group"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_63_internalfield1",
+   "fieldtype": "Int",
+   "label": "Plant code of sugar mill to which sugar transferred"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_63_internalfield2",
+   "fieldtype": "Float",
+   "label": "6.3 Internal transfer of raw sugar within a group - Total - During the Month (MT)",
+   "precision": "2"
+  },
+  {
+   "fieldname": "ns_column_break_jane",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_63_internalfield3",
+   "fieldtype": "Float",
+   "label": "Qty Transferred to other mills - During the Month (MT)",
+   "precision": "2"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_63_internalfield4",
+   "fieldtype": "Float",
+   "label": "6.3 Internal transfer of raw sugar within a group - Cumulative (MT)",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "depends_on": "eval:doc.dispatch_multiselect && JSON.stringify(doc.dispatch_multiselect).includes(\"6.4 Internal transfer of white sugar within a group\")\n",
+   "fieldname": "ns_64_internaltitle",
+   "fieldtype": "Section Break",
+   "label": "6.4 Internal transfer of white sugar within a group"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_64_internalfield1",
+   "fieldtype": "Int",
+   "label": "Plant code of sugar mill to which sugar transferred"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_64_internalfield2",
+   "fieldtype": "Float",
+   "label": "6.4 Internal transfer of white sugar within a group - Total - During the Month (MT)",
+   "precision": "2"
+  },
+  {
+   "fieldname": "column_break_nilj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_64_internalfield3",
+   "fieldtype": "Float",
+   "label": "Qty Transferred to other mills - During the Month (MT)",
+   "precision": "2"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_64_internalfield4",
+   "fieldtype": "Float",
+   "label": "6.4 Internal transfer of white sugar within a group - Cumulative (MT)",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "depends_on": "eval:doc.dispatch_multiselect && JSON.stringify(doc.dispatch_multiselect).includes(\"6.5 Sale of raw sugar to other sugar mills for domestic purpose\")\n",
+   "fieldname": "ns_65_saletitle",
+   "fieldtype": "Section Break",
+   "label": "6.5 Sale of raw sugar to other sugar mills for domestic purpose"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_65_salefield1",
+   "fieldtype": "Int",
+   "label": "Plant code of sugar mill to which sugar transferred"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_65_salefield2",
+   "fieldtype": "Float",
+   "label": "6.5 Sale of raw sugar to other sugar mills for domestic purpose - Total - During the Month (MT)",
+   "precision": "2"
+  },
+  {
+   "fieldname": "column_break_acnj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_65_salefield3",
+   "fieldtype": "Float",
+   "label": "Qty Transferred to other mills - During the Month (MT)",
+   "precision": "2"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_65_salefield4",
+   "fieldtype": "Float",
+   "label": "6.5 Sale of raw sugar to other sugar mills for domestic purpose - Cumulative (MT)",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "depends_on": "eval:doc.dispatch_multiselect && JSON.stringify(doc.dispatch_multiselect).includes(\"6.1.1 Domestic Dispatch w.r.t. monthly release quantity\" || \"6.1.2 Domestic Dispatch w.r.t. additional allotment, if any\" || \"6.1.3 Domestic Dispatch w.r.t. extended quota\" || \"6.1.4 Any other domestic Dispatch\" || \"6.2 BISS Dispatch of unmarketable old Sugar for further processing\" || \"6.3 Internal transfer of raw sugar within a group\" || \"6.4 Internal transfer of white sugar within a group\" || \"6.5 Sale of raw sugar to other sugar mills for domestic purpose\" )",
+   "fieldname": "hsn_code_and_related_details_section",
+   "fieldtype": "Section Break",
+   "label": "HSN code and related details"
+  },
+  {
+   "default": "0",
+   "fieldname": "hsn_code_t1",
+   "fieldtype": "Float",
+   "label": "Total Quantity of Sales (in MT) for HSN Code - 17011490",
+   "precision": "2"
+  },
+  {
+   "default": "0",
+   "fieldname": "hsn_code_t3",
+   "fieldtype": "Float",
+   "label": "Total Quantity of Sales (in MT) for HSN Code - Others",
+   "precision": "2"
+  },
+  {
+   "fieldname": "column_break_3etk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "hsn_code_t2",
+   "fieldtype": "Float",
+   "label": "Total Quantity of Sales (in MT) for HSN Code - 17019990",
+   "precision": "2"
+  },
+  {
+   "default": "0",
+   "fieldname": "hsn_code_t4",
+   "fieldtype": "Float",
+   "label": "Total Quantity of Sales (in MT) - Cumulative",
+   "precision": "2"
+  },
+  {
+   "fieldname": "section_break_p0moo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "supported files are PDF\n",
+   "fieldname": "upload_gstr_1",
+   "fieldtype": "Attach",
+   "label": "Upload GSTR 1"
+  },
+  {
+   "fieldname": "export_section",
+   "fieldtype": "Section Break",
+   "label": "Export"
+  },
+  {
+   "fieldname": "export_multiselect",
+   "fieldtype": "Table MultiSelect",
+   "label": "Select",
+   "options": "P2 Form Export Select"
+  },
+  {
+   "depends_on": "eval:doc.export_multiselect && JSON.stringify(doc.export_multiselect).includes(\"6.6 (a) Export under OGL/Export Quota- (i) White/ refined Sugar\")\n",
+   "fieldname": "ns_66a_exportrefinedtitle",
+   "fieldtype": "Section Break",
+   "label": "6.6 (a) Export under OGL/Export Quota- (i) White/ refined Sugar"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_66a_exportrefinedfield3",
+   "fieldtype": "Data",
+   "label": "Release Order (if applicable) - No."
+  },
+  {
+   "fieldname": "ns_66a_exportrefinedfield4",
+   "fieldtype": "Date",
+   "label": "Release Order (if applicable) - Date"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_66a_exportrefinedfield5",
+   "fieldtype": "Float",
+   "label": "Release Order (if applicable) - Qty released (MT)",
+   "precision": "2"
+  },
+  {
+   "fieldname": "column_break_nyoj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_66a_exportrefinedfield6",
+   "fieldtype": "Float",
+   "label": "Qty Dispatched - During the Month (MT)",
+   "precision": "2"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_66a_exportrefinedfield7",
+   "fieldtype": "Float",
+   "label": "Qty Dispatched - Cumulative (MT)",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "depends_on": "eval:doc.export_multiselect && JSON.stringify(doc.export_multiselect).includes(\"6.6 (a) Export under OGL- (ii) Raw Sugar (including SEZ refinery)\")\n",
+   "fieldname": "ns_66a_exportrawtitle",
+   "fieldtype": "Section Break",
+   "label": "6.6 (a) Export under OGL- (ii) Raw Sugar (including SEZ refinery)"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_66a_exportrawfield1",
+   "fieldtype": "Data",
+   "label": "Release Order (if applicable) - No."
+  },
+  {
+   "fieldname": "ns_66a_exportrawfield2",
+   "fieldtype": "Date",
+   "label": "Release Order (if applicable) - Date"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_66a_exportrawfield3",
+   "fieldtype": "Float",
+   "label": "Release Order (if applicable) - Qty released (MT)",
+   "precision": "2"
+  },
+  {
+   "fieldname": "column_break_2axi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_66a_exportrawfield4",
+   "fieldtype": "Float",
+   "label": "Qty Dispatched - During the Month (MT)",
+   "precision": "2"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_66a_exportrawfield5",
+   "fieldtype": "Float",
+   "label": "Qty Dispatched - Cumulative (MT)",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "depends_on": "eval:doc.export_multiselect && JSON.stringify(doc.export_multiselect).includes(\"6.6 (a) Export under OGL- (iii) Raw Sugar Sold to Refineries for Export by Invoice\")\n",
+   "fieldname": "ns_66a_exportinvoicetitle",
+   "fieldtype": "Section Break",
+   "label": "6.6 (a) Export under OGL- (iii) Raw Sugar Sold to Refineries for Export by Invoice"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_66a_exportinvoicefield1",
+   "fieldtype": "Data",
+   "label": "Release Order (if applicable) - No."
+  },
+  {
+   "fieldname": "ns_66a_exportinvoicefield2",
+   "fieldtype": "Date",
+   "label": "Release Order (if applicable) - Date"
+  },
+  {
+   "fieldname": "ns_66a_exportinvoicefield5",
+   "fieldtype": "Data",
+   "label": "Name of mill/refinery to whom sold"
+  },
+  {
+   "fieldname": "column_break_3fji",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_66a_exportinvoicefield3",
+   "fieldtype": "Float",
+   "label": "Qty Dispatched - During the Month (MT)",
+   "precision": "2"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_66a_exportinvoicefield4",
+   "fieldtype": "Float",
+   "label": "Qty Dispatched - Cumulative (MT)",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "depends_on": "eval:doc.export_multiselect && JSON.stringify(doc.export_multiselect).includes(\"6.6 (b) Export under AAS (White Sugar)\")\n",
+   "fieldname": "ns_66b_exportaastitle",
+   "fieldtype": "Section Break",
+   "label": "6.6 (b) Export under AAS (White Sugar)"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_66b_exportaasfield1",
+   "fieldtype": "Data",
+   "label": "Export Order (if applicable) - No."
+  },
+  {
+   "fieldname": "ns_66b_exportaasfield2",
+   "fieldtype": "Date",
+   "label": "Export Order (if applicable) - Date"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_66b_exportaasfield3",
+   "fieldtype": "Float",
+   "label": "Export Order (if applicable) - Qty released",
+   "precision": "2"
+  },
+  {
+   "fieldname": "column_break_4q9d",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_66b_exportaasfield4",
+   "fieldtype": "Float",
+   "label": "Qty Received - During the Month (MT)",
+   "precision": "2"
+  },
+  {
+   "default": "0",
+   "fieldname": "ns_66b_exportaasfield5",
+   "fieldtype": "Float",
+   "label": "Qty Received - Cumulative (MT)",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "fieldname": "import_sectin_title",
+   "fieldtype": "Section Break",
+   "label": "Import"
+  },
+  {
+   "fieldname": "is_there_any_import_applicable",
+   "fieldtype": "Select",
+   "label": "Is there any import applicable?",
+   "options": "No\nYes",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_dl3e",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "depends_on": "eval:doc.is_there_any_import_applicable == \"Yes\"\n",
+   "fieldname": "ns_67a_importfield1",
+   "fieldtype": "Float",
+   "label": "6.7 (a) Import under OGL \u2013 (i) White/refined Sugar - Qty Received - During the Month (MT)",
+   "mandatory_depends_on": "eval:doc.is_there_any_import_applicable == \"Yes\"\n",
+   "precision": "2"
+  },
+  {
+   "default": "0",
+   "depends_on": "eval:doc.is_there_any_import_applicable == \"Yes\"\n",
+   "fieldname": "ns_67a_importfield2",
+   "fieldtype": "Float",
+   "label": "6.7 (a) Import under OGL \u2013 (ii) Raw Sugar - Qty Received - During the Month (MT)",
+   "mandatory_depends_on": "eval:doc.is_there_any_import_applicable == \"Yes\"\n",
+   "precision": "2"
+  },
+  {
+   "default": "0",
+   "depends_on": "eval:doc.is_there_any_import_applicable == \"Yes\"\n",
+   "fieldname": "ns_67b_importfield",
+   "fieldtype": "Float",
+   "label": "6.7 (b) Import under AAS - Qty Received - During the Month (MT)",
+   "mandatory_depends_on": "eval:doc.is_there_any_import_applicable == \"Yes\"\n",
+   "precision": "2"
+  },
+  {
+   "fieldname": "total_dispatches_section",
+   "fieldtype": "Section Break",
+   "label": "Total Dispatches"
+  },
+  {
+   "default": "0",
+   "fieldname": "domestic_mt",
+   "fieldtype": "Float",
+   "label": "Domestic (MT)",
+   "precision": "2",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_nzgb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "export_mt",
+   "fieldtype": "Float",
+   "label": "Export (MT)",
+   "precision": "2",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_xatj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "stock_of_sugar_in_mt",
+   "fieldtype": "Heading",
+   "label": "Stock Of Sugar (In MT)"
+  },
+  {
+   "fieldname": "factory_premises_white_sugar",
+   "fieldtype": "Section Break",
+   "label": "Factory Premises - White Sugar"
+  },
+  {
+   "default": "0",
+   "fieldname": "white_sugar_opening_stock",
+   "fieldtype": "Float",
+   "label": "Opening Stock",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_fvvf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "white_sugar_closing_stock",
+   "fieldtype": "Float",
+   "label": "Closing Stock",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "fieldname": "factory_premises_biss_brown_sugar",
+   "fieldtype": "Section Break",
+   "label": "Factory Premises - BISS / Brown Sugar, If any"
+  },
+  {
+   "default": "0",
+   "fieldname": "biss_brown_sugar_opening_stock",
+   "fieldtype": "Float",
+   "label": "Opening Stock",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_stok",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "biss__brown_sugar_produced_during_the_month",
+   "fieldtype": "Float",
+   "label": "BISS / BROWN Sugar Produced During The Month",
+   "precision": "2"
+  },
+  {
+   "fieldname": "column_break_nge6v",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "biss_brown_sugar_closing_stock",
+   "fieldtype": "Float",
+   "label": "Closing Stock",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "fieldname": "factory_premises_raw_sugar",
+   "fieldtype": "Section Break",
+   "label": "Factory Premises - Raw Sugar"
+  },
+  {
+   "default": "0",
+   "fieldname": "raw_sugar_opening_stock",
+   "fieldtype": "Float",
+   "label": "Opening Stock",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_tihp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "raw_sugar_closing_stock",
+   "fieldtype": "Float",
+   "label": "Closing Stock",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "fieldname": "outside_godown_white_sugar",
+   "fieldtype": "Section Break",
+   "label": "Outside Godown (Duty paid) - White Sugar"
+  },
+  {
+   "default": "0",
+   "fieldname": "outside_white_sugar_opening_stock",
+   "fieldtype": "Float",
+   "label": "Opening Stock",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_tuyv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "initial_value_of_outside_godown_white_sugar_closing_stock",
+   "fieldtype": "Float",
+   "label": "Duty paid transferred quantity during the month",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_fk0rw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "duty_paid_sale_during_the_month_o_g_white_sugar",
+   "fieldtype": "Float",
+   "label": "Duty paid sale during the month",
+   "precision": "2"
+  },
+  {
+   "default": "0",
+   "fieldname": "outside_white_sugar_closing_stock",
+   "fieldtype": "Float",
+   "label": "Final Closing Stock",
+   "precision": "2",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "outside_godown_brown_sugar",
+   "fieldtype": "Section Break",
+   "label": "Outside Godown (Duty paid) - BISS / Brown Sugar, If any"
+  },
+  {
+   "default": "0",
+   "fieldname": "outside_biss_brown_sugar_opening_stock",
+   "fieldtype": "Float",
+   "label": "Opening Stock",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_bujr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "initial_value_of_outside_godown_biss_brown_sugar_closing_stock",
+   "fieldtype": "Float",
+   "label": "Duty paid transferred quantity during the month",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_18mmx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "duty_paid_sale_during_the_month_o_g_biss_brown_sugar",
+   "fieldtype": "Float",
+   "label": "Duty paid sale during the month",
+   "precision": "2"
+  },
+  {
+   "default": "0",
+   "fieldname": "outside_biss_brown_sugar_closing_stock",
+   "fieldtype": "Float",
+   "label": "Final Closing Stock",
+   "precision": "2",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "outside_godown_raw_sugar",
+   "fieldtype": "Section Break",
+   "label": "Outside Godown (Duty paid) - Raw Sugar"
+  },
+  {
+   "default": "0",
+   "fieldname": "outside_raw_sugar_opening_stock",
+   "fieldtype": "Float",
+   "label": "Opening Stock",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_runa",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "initial_value_of_outside_godown_raw_sugar_closing_stock",
+   "fieldtype": "Float",
+   "label": "Duty paid transferred quantity during the month",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_nxb6v",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "duty_paid_sale_during_the_month_o_g_raw_sugar",
+   "fieldtype": "Float",
+   "label": "Duty paid sale during the month",
+   "precision": "2"
+  },
+  {
+   "default": "0",
+   "fieldname": "outside_raw_sugar_closing_stock",
+   "fieldtype": "Float",
+   "label": "Final Closing Stock",
+   "precision": "2",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "packing_details_of_sugar_in_mt",
+   "fieldtype": "Section Break",
+   "label": "Packing details of sugar (In MT)"
+  },
+  {
+   "default": "0",
+   "fieldname": "pdosim_field1",
+   "fieldtype": "Float",
+   "label": "50 Kg Jute Bag - Qty in MT",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "pdosim_field2",
+   "fieldtype": "Float",
+   "label": "50 Kg PP/HDPE Bag - Qty in MT",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "pdosim_field3",
+   "fieldtype": "Float",
+   "label": "Total Quantity in Jute Bags (in MT)",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "pdosim_field4",
+   "fieldtype": "Float",
+   "label": "Total Quantity in PP/HDPE Bags (in MT)",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "pdosim_field5",
+   "fieldtype": "Float",
+   "label": "Total Quantity (in MT)",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_tmyj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pdosim_field6",
+   "fieldtype": "Float",
+   "label": "100 Kg Jute Bag - Qty in MT",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "pdosim_field7",
+   "fieldtype": "Float",
+   "label": "Other Retail Bags (<= 25 Kg and > 100 Kg)/ Loose Sugar - Qty in MT",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "pdosim_field8",
+   "fieldtype": "Float",
+   "label": "Total Quantity in Jute Bags (in MT) - Percentage w. r. t. Production",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "pdosim_field9",
+   "fieldtype": "Float",
+   "label": "Total Quantity in PP/HDPE Bags (in MT)- Percentage w. r. t. Production",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_xxcm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "cane_dues_data",
+   "fieldtype": "Heading",
+   "label": "Cane Dues Data"
+  },
+  {
+   "fieldname": "sugar_season_2024_25",
+   "fieldtype": "Section Break",
+   "label": "Current Sugar Season Details"
+  },
+  {
+   "default": "0",
+   "fieldname": "ss_24_25_field1",
+   "fieldtype": "Float",
+   "label": "Cane Crushed",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ss_24_25_field2",
+   "fieldtype": "Float",
+   "label": "Sugar Recovery",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ss_24_25_field3",
+   "fieldtype": "Float",
+   "label": "Cane Dues Payable (in Rs Cr) - Cumulative",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ss_24_25_field4",
+   "fieldtype": "Float",
+   "label": "Cane Dues Paid (in Rs Cr) - Cumulative",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ss_24_25_field5",
+   "fieldtype": "Float",
+   "label": "No. of farmers from which cane procured - During the Month",
+   "precision": "2"
+  },
+  {
+   "fieldname": "column_break_iptrl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "ss_24_25_field6",
+   "fieldtype": "Float",
+   "label": "Sugar Production (in MT)",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ss_24_25_field7",
+   "fieldtype": "Float",
+   "label": "Cane Price Payable (in Rs Cr) - During the Month",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ss_24_25_field8",
+   "fieldtype": "Float",
+   "label": "Cane Price Paid (in Rs Cr) - During the Month",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ss_24_25_field9",
+   "fieldtype": "Float",
+   "label": "Cane Price Arrears (in Rs Cr) - Cumulative",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_pt0zi",
+   "fieldtype": "Section Break"
+  },
+  {
+   "allow_bulk_edit": 1,
+   "allow_on_submit": 1,
+   "fieldname": "cane_dues_5_year_data",
+   "fieldtype": "Table",
+   "label": "cane dues 5 year data",
+   "options": "NSWS cane dues data"
+  },
+  {
+   "fieldname": "tab_break_jmdzk",
+   "fieldtype": "Tab Break",
+   "hidden": 1
+  },
+  {
+   "fieldname": "sugar_season_2023_24",
+   "fieldtype": "Section Break",
+   "label": "Sugar Season - 2023-24"
+  },
+  {
+   "default": "0",
+   "fieldname": "ss_23_24_field1",
+   "fieldtype": "Float",
+   "label": "Cane Crushed",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ss_23_24_field2",
+   "fieldtype": "Float",
+   "label": "Sugar Recovery",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ss_23_24_field8",
+   "fieldtype": "Float",
+   "label": "Cane Price Paid (in Rs Cr) - During the Month",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ss_23_24_field9",
+   "fieldtype": "Float",
+   "label": "Cane Price Arrears (in Rs Cr) - Cumulative",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_lrlx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "ss_23_24_field6",
+   "fieldtype": "Float",
+   "label": "Sugar Production (in MT)",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ss_23_24_field7",
+   "fieldtype": "Float",
+   "label": "Cane Price Payable (in Rs Cr) - During the Sugar Season",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ss_23_24_field4",
+   "fieldtype": "Float",
+   "label": "Cane Dues Paid (in Rs Cr) - Cumulative",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ss_23_24_field5",
+   "fieldtype": "Float",
+   "label": "No. of farmers from which cane procured - During the Month",
+   "precision": "2"
+  },
+  {
+   "fieldname": "sugar_season_2022_23",
+   "fieldtype": "Section Break",
+   "label": "Sugar Season - 2022-23"
+  },
+  {
+   "default": "0",
+   "fieldname": "ss_22_23_field1",
+   "fieldtype": "Float",
+   "label": "Cane Crushed",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ss_22_23_field2",
+   "fieldtype": "Float",
+   "label": "Sugar Recovery",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ss_22_23_field3",
+   "fieldtype": "Float",
+   "label": "Cane Price Paid (in Rs Cr) - During the Month",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ss_22_23_field4",
+   "fieldtype": "Float",
+   "label": "Cane Price Arrears (in Rs Cr) - Cumulative",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_fxuw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "ss_22_23_field5",
+   "fieldtype": "Float",
+   "label": "Sugar Production (in MT)",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ss_22_23_field6",
+   "fieldtype": "Float",
+   "label": "Cane Price Payable (in Rs Cr) - During the Sugar Season",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ss_22_23_field7",
+   "fieldtype": "Float",
+   "label": "Cane Dues Paid (in Rs Cr) - Cumulative",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ss_22_23_field8",
+   "fieldtype": "Float",
+   "label": "No. of farmers from which cane procured - During the Month",
+   "precision": "2"
+  },
+  {
+   "fieldname": "sugar_season_2021_22",
+   "fieldtype": "Section Break",
+   "label": "Sugar Season - 2021-22"
+  },
+  {
+   "default": "0",
+   "fieldname": "ss_21_22_field1",
+   "fieldtype": "Float",
+   "label": "Cane Crushed",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ss_21_22_field2",
+   "fieldtype": "Float",
+   "label": "Sugar Recovery",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ss_21_22_field3",
+   "fieldtype": "Float",
+   "label": "Cane Price Paid (in Rs Cr) - During the Month",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ss_21_22_field4",
+   "fieldtype": "Float",
+   "label": "Cane Price Arrears (in Rs Cr) - Cumulative",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_khsm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "ss_21_22_field5",
+   "fieldtype": "Float",
+   "label": "Sugar Production (in MT)",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ss_21_22_field6",
+   "fieldtype": "Float",
+   "label": "Cane Price Payable (in Rs Cr) - During the Sugar Season",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ss_21_22_field7",
+   "fieldtype": "Float",
+   "label": "Cane Dues Paid (in Rs Cr) - Cumulative",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ss_21_22_field8",
+   "fieldtype": "Float",
+   "label": "No. of farmers from which cane procured",
+   "precision": "2"
+  },
+  {
+   "fieldname": "sugar_season_2020_21",
+   "fieldtype": "Section Break",
+   "label": "Sugar Season - 2020-21"
+  },
+  {
+   "default": "0",
+   "fieldname": "ss_20_21_field1",
+   "fieldtype": "Float",
+   "label": "Cane Crushed",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ss_20_21_field2",
+   "fieldtype": "Float",
+   "label": "Sugar Recovery",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ss_20_21_field3",
+   "fieldtype": "Float",
+   "label": "Cane Price Paid (in Rs Cr) - During the Month",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ss_20_21_field4",
+   "fieldtype": "Float",
+   "label": "Cane Price Arrears (in Rs Cr) - Cumulative",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_xwpf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "ss_20_21_field5",
+   "fieldtype": "Float",
+   "label": "Sugar Production (in MT)",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ss_20_21_field6",
+   "fieldtype": "Float",
+   "label": "Cane Price Payable (in Rs Cr) - During the Sugar Season",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ss_20_21_field7",
+   "fieldtype": "Float",
+   "label": "Cane Dues Paid (in Rs Cr) - Cumulative",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ss_20_21_field8",
+   "fieldtype": "Float",
+   "label": "No. of farmers from which cane procured - During the Month",
+   "precision": "2"
+  },
+  {
+   "fieldname": "sugar_season_2019_20",
+   "fieldtype": "Section Break",
+   "label": "Sugar Season - 2019-20"
+  },
+  {
+   "default": "0",
+   "fieldname": "ss_19_20_field1",
+   "fieldtype": "Float",
+   "label": "Cane Crushed",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ss_19_20_field2",
+   "fieldtype": "Float",
+   "label": "Sugar Recovery",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ss_19_20_field3",
+   "fieldtype": "Float",
+   "label": "Cane Price Paid (in Rs Cr) - During the Month",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ss_19_20_field4",
+   "fieldtype": "Float",
+   "label": "Cane Price Arrears (in Rs Cr) - Cumulative",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_ozbw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "ss_19_20_field5",
+   "fieldtype": "Float",
+   "label": "Sugar Production (in MT)",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ss_19_20_field6",
+   "fieldtype": "Float",
+   "label": "Cane Price Payable (in Rs Cr) - During the Sugar Season",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ss_19_20_field7",
+   "fieldtype": "Float",
+   "label": "Cane Dues Paid (in Rs Cr) - Cumulative",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ss_19_20_field8",
+   "fieldtype": "Float",
+   "label": "No. of farmers from which cane procured",
+   "precision": "2"
+  },
+  {
+   "fieldname": "json_section",
+   "fieldtype": "Tab Break",
+   "label": "Generated Json"
+  },
+  {
+   "fieldname": "unique_id",
+   "fieldtype": "Data",
+   "label": "Unique Id",
+   "no_copy": 1
+  },
+  {
+   "fieldname": "api_response",
+   "fieldtype": "Small Text",
+   "label": "API Response",
+   "no_copy": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "copy_json",
+   "fieldtype": "Button",
+   "label": "Copy Json"
+  },
+  {
+   "fieldname": "nsws_p2_form_json",
+   "fieldtype": "Code",
+   "label": "Json",
+   "no_copy": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "NSWS P2 Form",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "NSWS P2 Form",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-12-30 13:03:30.137762",
+ "modified_by": "Administrator",
+ "module": "Nsws Integration",
+ "name": "NSWS P2 Form",
+ "naming_rule": "Expression",
+ "owner": "soham.pawar@erpdata.in",
+ "permissions": [
+  {
+   "amend": 1,
+   "cancel": 1,
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "select": 1,
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

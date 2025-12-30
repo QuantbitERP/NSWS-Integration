@@ -1,0 +1,36 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-12-30 12:04:49.129665",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "p2_form_dispatches_select"
+ ],
+ "fields": [
+  {
+   "fieldname": "p2_form_dispatches_select",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "P2 Form Dispatches Select",
+   "options": "NSWS Options"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-12-30 12:04:49.129665",
+ "modified_by": "soham.pawar@erpdata.in",
+ "module": "Nsws Integration",
+ "name": "P2 Form Dispatches Select",
+ "owner": "soham.pawar@erpdata.in",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
