@@ -1,0 +1,130 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "NSWS Options",
+  "modified": "2025-12-30 12:08:02.244468",
+  "name": "2(I) White / Refined Sugar",
+  "nsws_options": "2(I) White / Refined Sugar",
+  "options_type": "Productions"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "NSWS Options",
+  "modified": "2025-12-30 12:08:02.338141",
+  "name": "2(II) Raw Sugar",
+  "nsws_options": "2(II) Raw Sugar",
+  "options_type": "Productions"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "NSWS Options",
+  "modified": "2025-12-30 12:08:02.354467",
+  "name": "2(III) Procured sugar",
+  "nsws_options": "2(III) Procured sugar",
+  "options_type": "Productions"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "NSWS Options",
+  "modified": "2025-12-30 12:08:02.362711",
+  "name": "3(1) Diversion/sale of B-heavy/Syrup/sugarcane juice/sugar",
+  "nsws_options": "3(1) Diversion/sale of B-heavy/Syrup/sugarcane juice/sugar",
+  "options_type": "Productions"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "NSWS Options",
+  "modified": "2025-12-30 12:08:02.371063",
+  "name": "3(2) Ethanol Production",
+  "nsws_options": "3(2) Ethanol Production",
+  "options_type": "Productions"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "NSWS Options",
+  "modified": "2025-12-30 12:08:02.379799",
+  "name": "6.1.1 Domestic Dispatch w.r.t. monthly release quantity",
+  "nsws_options": "6.1.1 Domestic Dispatch w.r.t. monthly release quantity",
+  "options_type": "Dispatches"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "NSWS Options",
+  "modified": "2025-12-30 12:08:02.387799",
+  "name": "6.1.3 Domestic Dispatch w.r.t. extended quota",
+  "nsws_options": "6.1.3 Domestic Dispatch w.r.t. extended quota",
+  "options_type": "Dispatches"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "NSWS Options",
+  "modified": "2025-12-30 12:08:02.396491",
+  "name": "6.1.4 Any other domestic Dispatch",
+  "nsws_options": "6.1.4 Any other domestic Dispatch",
+  "options_type": "Dispatches"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "NSWS Options",
+  "modified": "2025-12-30 12:08:02.404516",
+  "name": "6.2 BISS Dispatch of unmarketable old Sugar for further processing",
+  "nsws_options": "6.2 BISS Dispatch of unmarketable old Sugar for further processing",
+  "options_type": "Dispatches"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "NSWS Options",
+  "modified": "2025-12-30 12:08:02.412960",
+  "name": "6.3 Internal transfer of raw sugar within a group",
+  "nsws_options": "6.3 Internal transfer of raw sugar within a group",
+  "options_type": "Dispatches"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "NSWS Options",
+  "modified": "2025-12-30 12:08:02.421382",
+  "name": "6.4 Internal transfer of white sugar within a group",
+  "nsws_options": "6.4 Internal transfer of white sugar within a group",
+  "options_type": "Dispatches"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "NSWS Options",
+  "modified": "2025-12-30 12:08:02.429772",
+  "name": "6.5 Sale of raw sugar to other sugar mills for domestic purpose",
+  "nsws_options": "6.5 Sale of raw sugar to other sugar mills for domestic purpose",
+  "options_type": "Dispatches"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "NSWS Options",
+  "modified": "2025-12-30 12:08:02.437898",
+  "name": "6.6 (a) Export under OGL/Export Quota- (i) White/ refined Sugar",
+  "nsws_options": "6.6 (a) Export under OGL/Export Quota- (i) White/ refined Sugar",
+  "options_type": "Export"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "NSWS Options",
+  "modified": "2025-12-30 12:08:02.445992",
+  "name": "6.6 (a) Export under OGL- (ii) Raw Sugar (including SEZ refinery)",
+  "nsws_options": "6.6 (a) Export under OGL- (ii) Raw Sugar (including SEZ refinery)",
+  "options_type": "Export"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "NSWS Options",
+  "modified": "2025-12-30 12:08:02.454436",
+  "name": "6.6 (a) Export under OGL- (iii) Raw Sugar Sold to Refineries for Export by Invoice",
+  "nsws_options": "6.6 (a) Export under OGL- (iii) Raw Sugar Sold to Refineries for Export by Invoice",
+  "options_type": "Export"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "NSWS Options",
+  "modified": "2025-12-30 12:08:02.462996",
+  "name": "6.6 (b) Export under AAS (White Sugar)",
+  "nsws_options": "6.6 (b) Export under AAS (White Sugar)",
+  "options_type": "Export"
+ }
+]

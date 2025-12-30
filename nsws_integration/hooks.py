@@ -227,6 +227,9 @@ app_license = "mit"
 # 		"doctype": "{doctype_4}"
 # 	}
 # ]
+patches = [
+    "nsws_integration.patches.add_nsws_permissions"
+]
 
 # Authentication and authorization
 # --------------------------------
@@ -247,3 +250,19 @@ app_license = "mit"
 # List of apps whose translatable strings should be excluded from this app's translations.
 # ignore_translatable_strings_from = []
 
+fixtures = [
+    {
+        "dt": "DocType",
+        "filters": {
+            "name": "NSWS Options"
+        }
+    },
+    {"dt":"Workspace", "filters": {"module": "NSWS Integration"}},
+    # Export Role
+    {
+        "dt": "Role",
+        "filters": {
+             "name": ["in", ["NSWS Manager", "NSWS User"]]
+        }
+    }
+]

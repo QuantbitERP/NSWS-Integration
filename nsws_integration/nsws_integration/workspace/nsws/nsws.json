@@ -1,0 +1,85 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"v6K5ZRjCso\",\"type\":\"card\",\"data\":{\"card_name\":\"NSWS Masters\",\"col\":4}},{\"id\":\"G-0I1pQffd\",\"type\":\"card\",\"data\":{\"card_name\":\"Transactions\",\"col\":4}}]",
+ "creation": "2025-12-30 12:56:04.214450",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "permission",
+ "idx": 0,
+ "indicator_color": "blue",
+ "is_hidden": 0,
+ "label": "NSWS",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "NSWS Masters",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "NSWS Options",
+   "link_count": 0,
+   "link_to": "NSWS Options",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "NSWS Season",
+   "link_count": 0,
+   "link_to": "NSWS Season",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Transactions",
+   "link_count": 1,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "NSWS P2 Form",
+   "link_count": 0,
+   "link_to": "NSWS P2 Form",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2025-12-30 13:05:50.539904",
+ "modified_by": "Administrator",
+ "module": "Nsws Integration",
+ "name": "NSWS",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "NSWS Manager"
+  },
+  {
+   "role": "NSWS User"
+  }
+ ],
+ "sequence_id": 46.0,
+ "shortcuts": [],
+ "title": "NSWS"
+}
